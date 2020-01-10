@@ -54,7 +54,7 @@
                 <version>0.4.13</version>
                 <configuration>
                     <imageName>192.168.142.131:5000/${project.artifactId}:${project.version}</imageName>
-                    <baseImage>jdk1.8</baseImage>
+                    <baseImage>openjdk</baseImage>
                     <entryPoint>["java", "-jar","/${project.build.finalName}.jar"]</entryPoint>
                     <resources>
                         <resource>
